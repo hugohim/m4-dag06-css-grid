@@ -1,6 +1,6 @@
 # Dag 6 · CSS Grid
 
-*Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs*
+_Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs_
 
 ## Vad du ska göra idag
 
@@ -12,8 +12,8 @@ Grid ordnar element i **två dimensioner**: rader och kolumner samtidigt. Tumreg
 
 ## Så arbetar du (samma som alltid)
 
-1. **Forka** dagens repo på GitHub (*Fork → Create fork*).
-2. **Klona din fork:** *Code → HTTPS → kopiera adressen*. I terminalen (Ctrl+ö i VS Code): `git clone <adressen>`. Öppna den nya mappen i VS Code och starta *Live Server*.
+1. **Forka** dagens repo på GitHub (_Fork → Create fork_).
+2. **Klona din fork:** _Code → HTTPS → kopiera adressen_. I terminalen (Ctrl+ö i VS Code): `git clone <adressen>`. Öppna den nya mappen i VS Code och starta _Live Server_.
 3. **Gör uppgiften.** Spara och kontrollera i webbläsaren efter varje steg. Gör en commit efter varje avslutat steg: `git add .` och `git commit -m "Beskriv vad du gjorde"`.
 4. **Skicka upp** när du är klar: `git push`.
 5. **Lämna in i Microsoft Forms.**

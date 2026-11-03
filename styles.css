@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+.meny-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+/*
+Grid
+Flex med flex-wrap hade funkat. Men jag tror grid är att föredra då den alltid
+skapar lika stora boxar. Med flex blev t.ex bryggkaffekortet mindre än de
+andra elementen.
+*/
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -47,7 +59,6 @@ article {
   border: 1px solid #e3d5c3;
   border-radius: 8px;
   padding: 16px;
-  margin-bottom: 16px;
 }
 
 article img,
@@ -56,6 +67,22 @@ article img,
   height: auto;
   border-radius: 4px;
 }
+#om-oss {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h2 {
+            grid-column: 1 / -1
+    }
+    img {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+}
+/*
+Grid
+Här kan man använda grid om man vill få texten före bilden.
+*/
 
 .knapp {
   display: inline-block;
@@ -205,6 +232,12 @@ header {
   justify-content: space-between;
   gap: 8px 24px;
 }
+/*
+Flexbox
+För att kunna använda space between. Med grid skulle man behöva skapa 2 fr
+och sedan justfiya sista elementet åt höger, vilket blir mer jobb än
+justify-content: space-between;
+*/
 
 header h1 {
   margin: 0;
